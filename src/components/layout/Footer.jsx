@@ -49,14 +49,14 @@ const Footer = () => {
           <div>
             <a
               className=""
-              href="https://www.linkedin.com/in/ishwor-karki-4b3973272/"
+              href="https://www.facebook.com/profile.php?id=100009169418255"
               target="_blank"
             >
               <FaFacebookF />
             </a>
 
             <a
-              href="https://www.linkedin.com/in/ishwor-karki-4b3973272/"
+              href="https://www.linkedin.com/in/sailesh-chhettri/"
               target="_blank"
             >
               <FaLinkedin />
@@ -69,10 +69,10 @@ const Footer = () => {
         <Col>
           Copyright &copy; Expense Tracker All reserved 2025. Made by{" "}
           <a
-            href="https://www.linkedin.com/in/ishwor-karki-4b3973272/"
+            href="https://www.linkedin.com/in/sailesh-chhettri/"
             target="_blank"
           >
-            Ishwor Karki
+            Shailesh Gharti
           </a>
         </Col>
       </Row>
