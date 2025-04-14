@@ -1,7 +1,6 @@
 import "./App.css";
 import { ToastContainer,Bounce} from "react-toastify";
 import { Routes, Route } from "react-router-dom";
-import Login from "./pages/Login.jsx";
 import Signup from "./pages/Signup.jsx";
 import DefaultLayout from "./components/layout/DefaultLayout";
 import Dashboard from "./pages/DashBoard.jsx";
@@ -12,6 +11,7 @@ import { useUser } from "./context/UserContext.jsx";
 import { autoLogin } from "./utils/users.js";
 import Contact from "./pages/Contact.jsx";
 import Home from "./pages/Home.jsx";
+import Login from "./pages/Login.jsx";
 
 function App() {
   const { user, setUser } = useUser();
@@ -27,7 +27,7 @@ function App() {
     <div className="wrapper">
       <Routes>
         <Route path="/" element={<DefaultLayout />}>
-          <Route path="login" element={<Login />}></Route>
+          <Route path="login" element={<Login/>}></Route>
           <Route path="signup" element={<Signup />}></Route>
           <Route path="contact" element={<Contact />}></Route>
           <Route index element={<Home />}></Route>

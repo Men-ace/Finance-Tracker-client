@@ -3,7 +3,7 @@ import Form from "react-bootstrap/Form";
 import CustomInput from "./CustomInput";
 import { useEffect, useState } from "react";
 import { toast, Bounce } from "react-toastify";
-import { loginUser, postNewUser } from "../../helpers/axiosHelper";
+import { loginUser, postNewUser } from "../../helpers/axiosHelper.js";
 import { useUser } from "../context/UserContext";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 const initialState = {
