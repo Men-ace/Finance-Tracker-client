@@ -10,7 +10,7 @@ import { useEffect } from "react";
 import { useUser } from "./context/UserContext.jsx";
 import { autoLogin } from "./utils/users.js";
 import Contact from "./pages/Contact.jsx";
-import Home from "./pages/Home.jsx";
+import Home from "./pages/Home.jsx"
 import Login from "./pages/Login.jsx";
 
 function App() {
