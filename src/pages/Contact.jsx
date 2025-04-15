@@ -42,7 +42,7 @@ const Contact = () => {
                     <Form.Label>Name</Form.Label>
                     <Form.Control
                       type="text"
-                      placeholder="ishowr karki"
+                      placeholder="Shailesh Gharti"
                       required
                       onChange={handleOnChange}
                       name="name"

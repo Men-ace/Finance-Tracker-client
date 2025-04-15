@@ -25,7 +25,7 @@ const SignInForm = () => {
   const fields = [
     {
       label: "Email",
-      placeholder: "ishwor@email.com",
+      placeholder: "Shailesh@email.com",
       required: true,
       type: "email",
       name: "email",
