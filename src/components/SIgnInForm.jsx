@@ -3,7 +3,7 @@ import Form from "react-bootstrap/Form";
 import CustomInput from "./CustomInput";
 import { useEffect, useState } from "react";
 import { toast, Bounce } from "react-toastify";
-import { loginUser, postNewUser } from "../../helpers/axiosHelper.js";
+import { loginUser, postNewUser } from "../../helpers/axiosHelper";
 import { useUser } from "../context/UserContext";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 const initialState = {
@@ -25,7 +25,7 @@ const SignInForm = () => {
   const fields = [
     {
       label: "Email",
-      placeholder: "sailesh1@email.com",
+      placeholder: "ishwor@email.com",
       required: true,
       type: "email",
       name: "email",

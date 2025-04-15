@@ -26,7 +26,7 @@ const SignUpForm = () => {
     },
     {
       label: "Email",
-      placeholder: "sailesh1@email.com",
+      placeholder: "Shailesh@email.com",
       required: true,
       type: "email",
       name: "email",
