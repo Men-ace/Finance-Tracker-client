@@ -1,11 +1,11 @@
 import "./App.css";
 import { ToastContainer, toast,Bounce} from "react-toastify";
 import { Routes, Route } from "react-router-dom";
-import Login from "./pages/Login";
-import Signup from "./pages/Signup";
+import Login from "./pages/Login.jsx";
+import Signup from "./pages/Signup.jsx";
 import DefaultLayout from "./components/layout/DefaultLayout";
-import Dashboard from "./pages/Dashboard";
-import Transaction from "./pages/Transaction";
+import Dashboard from "./pages/Dashboard.jsx";
+import Transaction from "./pages/Transaction.jsx";
 import Auth from "./auth/Auth.jsx";
 import { useEffect } from "react";
 import { useUser } from "./context/UserContext.jsx";
