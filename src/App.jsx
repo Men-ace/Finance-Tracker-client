@@ -3,7 +3,7 @@ import { ToastContainer, toast,Bounce} from "react-toastify";
 import { Routes, Route } from "react-router-dom";
 import Login from "./pages/Login.jsx";
 import Signup from "./pages/Signup.jsx";
-import DefaultLayout from "./components/layout/DefaultLayout";
+import DefaultLayout from "./components/layout/DefaultLayout.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
 import Transaction from "./pages/Transaction.jsx";
 import Auth from "./auth/Auth.jsx";
