@@ -3,7 +3,7 @@ import { Button, Container, Row, Col, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { Carousel } from "react-bootstrap";
 import { useUser } from "../context/UserContext";
-import Dashboard from "./Dashboard";
+import Dashboard from "./DashBoard";
 const Home = () => {
   const { user } = useUser();
   return user?._id ? (
