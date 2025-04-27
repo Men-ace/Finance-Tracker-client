@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import Login from "./pages/Login.jsx";
 import Signup from "./pages/Signup.jsx";
 import DefaultLayout from "./components/layout/DefaultLayout.jsx";
-import Dashboard from "./pages/Dashboard.jsx";
+import Dashboard from "./pages/DashBoard.jsx";
 import Transaction from "./pages/Transaction.jsx";
 import Auth from "./auth/Auth.jsx";
 import { useEffect } from "react";
